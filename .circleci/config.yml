@@ -5,7 +5,7 @@ jobs:
     environment:
       PATH: "/home/circleci/.asdf/bin:/home/circleci/.asdf/shims:/usr/bin:/bin:/usr/sbin:/sbin"
     machine:
-      image: ubuntu-1604:202004-01
+      image: ubuntu-2204:2022.04.1
     steps:
       - checkout
       - restore_cache:
